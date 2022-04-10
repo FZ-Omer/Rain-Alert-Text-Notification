@@ -7,7 +7,7 @@ account_sid = "AC6dba88d0d3b9d5bf31f48a6890774dd8"
 auth_token = "94a371903aaac2e0cc4511991c06b45b"
 api_key = "65c55144e13af6cbfc706faea279a484"
 
-# To check the code, hash below two lines. Also remove http_client=proxy_client on line 67.
+# To check the code, hash below two lines. Also remove http_client=proxy_client on line 38.
 proxy_client = TwilioHttpClient()
 proxy_client.session.proxies = {'https': os.environ['https_proxy']}
 
@@ -43,3 +43,4 @@ if will_rain:
          to='+917550168737'
          )
     print(message.status)
+#THE END :)
